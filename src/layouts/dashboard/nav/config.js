@@ -7,12 +7,42 @@ const icon = (name) => <SvgColor src={`/assets/icons/navbar/${name}.svg`} sx={{ 
 
 const navConfig = [
   {
-    title: 'dashboard',
+    title: 'Home',
     path: '/dashboard/app',
     icon: icon('ic_analytics'),
   },
   {
     title: 'Dark Team',
+    path: 'darkteam',
+    icon: icon('ic_blog'),
+  },
+  {
+    title: 'Deposit',
+    path: 'darkteam',
+    icon: icon('ic_blog'),
+  },
+  {
+    title: 'Withdraw',
+    path: 'darkteam',
+    icon: icon('ic_blog'),
+  },
+  {
+    title: 'Profit History',
+    path: 'darkteam',
+    icon: icon('ic_blog'),
+  },
+  {
+    title: 'Transactions',
+    path: 'darkteam',
+    icon: icon('ic_blog'),
+  },
+  {
+    title: 'Trading Plan',
+    path: 'darkteam',
+    icon: icon('ic_blog'),
+  },
+  {
+    title: 'My Plan',
     path: 'darkteam',
     icon: icon('ic_blog'),
   },
